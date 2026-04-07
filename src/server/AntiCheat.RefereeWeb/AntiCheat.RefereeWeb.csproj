@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AntiCheat.Core\AntiCheat.Core.csproj" />
+    <ProjectReference Include="..\AntiCheat.Infrastructure\AntiCheat.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>

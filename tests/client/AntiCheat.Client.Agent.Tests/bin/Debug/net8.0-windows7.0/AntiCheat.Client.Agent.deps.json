@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "AntiCheat.Client.Agent/1.0.0": {
+        "dependencies": {
+          "AntiCheat.Core": "1.0.0"
+        },
+        "runtime": {
+          "AntiCheat.Client.Agent.dll": {}
+        }
+      },
+      "AntiCheat.Core/1.0.0": {
+        "runtime": {
+          "AntiCheat.Core.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AntiCheat.Client.Agent/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AntiCheat.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
